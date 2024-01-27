@@ -1,0 +1,159 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.nav-img {
+  position: relative;
+  left: 300px;
+}
+
+.nav-icon {
+  position: relative;
+  top: 30px;
+  right: 30px;
+}
+
+.nav-icon i {
+  size: 100px;
+}
+
+.s1 {
+  display: flex;
+}
+
+.s1-img {
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+.s2 {
+  position: relative;
+  top: 250px;
+  left: 500px;
+}
+
+.s1-t1 {
+  background-color: green;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.s1-t2 {
+  font-size: 70px;
+  text-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.s1-t3 {
+  background-color: orangered;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+.f {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.f1 {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 500px;
+  gap: 60px;
+
+}
+
+.txt h3 {
+  /* color: yellow; */
+  font-size: 20px;
+
+}
+.m1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 50px;
+}
+.m2{
+  background-color: green;
+  text-align: center;
+  width: 140px;
+  height: 50px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+  color: white;
+  border-radius: 15px;
+}
+.p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 50px;
+}
+.p2{
+  font-size: 40px;
+}
+.j1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 50px;
+}
+.grid {
+  display: grid;
+  gap:10px;
+  grid-template-areas: "it1 it1 it2 it3"
+                        "it1 it1 it2 it7"
+                        "it4 it5 it6 it7";
+}
+.grid img{
+  border-radius: 10px;
+}
+.grid-img:hover{
+  zoom: 2%;
+}
+.item-1 {
+  grid-area: it1;
+}
+.item-2 {
+  grid-area: it2;
+}
+.item-3 {
+  grid-area: it3;
+}
+.item-4 {
+  grid-area: it4;
+}
+.item-5 {
+  grid-area: it5;
+}
+.item-6 {
+  grid-area: it6;
+}
+.item-7 {
+  grid-area: it7;
+}
+  height: 100%;
+  width: 100%;
+}
